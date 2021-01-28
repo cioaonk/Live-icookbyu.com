@@ -2,5 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/icookbyu/public_html/site/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp styleshome.css $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
